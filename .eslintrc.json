@@ -1,0 +1,44 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": ["eslint:recommended","plugin:shani/shaniConfig"],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "parserOptions":{
+        "ecmaVersion":6,
+        "sourceType":"module",
+        "ecmaFeatures":{
+            "jsx":true
+        }
+    },
+    "plugins":["shani"],
+    "rules": {
+        "no-unused-vars":"off",
+        // "shani/funcparam":"error",
+        // "shani/find-payment":"error",
+        // "shani/find-fixme":["error","fixme","leela"],
+        "no-restricted-imports":["error","underscore"],
+        "eqeqeq":"error",
+        "no-console": "error",
+        "consistent-return": "error",
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}

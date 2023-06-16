@@ -1,0 +1,21 @@
+{
+  "name": "ESLint-Course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint js",
+
+    "lint-fix": "eslint js --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.42.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
